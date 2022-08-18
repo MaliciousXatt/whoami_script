@@ -74,7 +74,7 @@ if github.lower() == "y":
         time.sleep(30)
 
     elif platform == "win32":
-        os.system('msedge.exe https://github.com/maliciousxatt')
+        os.system('explorer https://github.com/maliciousxatt')
         print("Opening Edge: https://github.com/maliciousxatt")
         print("30 Seconds before continueing.")
         time.sleep(30)
