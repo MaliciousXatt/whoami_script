@@ -72,7 +72,7 @@ if github.lower() == "y":
         time.sleep(30)
 
     elif platform == "win32":
-        os.system('msedege.exe https://github.com/maliciousxatt')
+        os.system('msedge.exe https://github.com/maliciousxatt')
         print("30 Seconds before continueing.")
         time.sleep(30)
 
