@@ -63,16 +63,19 @@ github = input("Choose: \"Y\" or \"N\" \n")
 if github.lower() == "y":
     if platform == "linux":
         os.system('firefox https://github.com/maliciousxatt')
+        print("Opening Firefox: https://github.com/maliciousxatt")
         print("30 Seconds before continueing.")
         time.sleep(30)
 
     elif platform == "darwin":
         os.system('safari https://github.com/maliciousxatt')
+        print("Opening Safari: https://github.com/maliciousxatt")
         print("30 Seconds before continueing.")
         time.sleep(30)
 
     elif platform == "win32":
         os.system('msedge.exe https://github.com/maliciousxatt')
+        print("Opening Edge: https://github.com/maliciousxatt")
         print("30 Seconds before continueing.")
         time.sleep(30)
 
